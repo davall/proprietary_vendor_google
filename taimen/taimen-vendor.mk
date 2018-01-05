@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-wahoo.xml:system/etc/permissions/privapp-permissions-wahoo.xml \
+    vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml\
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
     vendor/google/taimen/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/google/taimen/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -46,7 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/google/taimen/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/taimen/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so
+    vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/google/taimen/proprietary/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
+    vendor/google/taimen/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
+    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017 \
+    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
 
 PRODUCT_PACKAGES += \
     VZWAPNLib \
@@ -70,4 +75,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     embmslibrary \
     rcsimssettings \
-    vendor.qti.qcril.am-V1.0-java
+    vendor.qti.qcril.am-V1.0-java \
+    ims \
+    QAS_DVC_MSP_VZW \
+    vzw_msdc_api
