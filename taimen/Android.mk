@@ -297,6 +297,18 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := ModemService
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/app/ModemService/ModemService.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+
 # Create symlinks.
 LOCAL_POST_INSTALL_CMD := \
     ln -sf $(TARGET_ROOT_OUT)/system/bin/netutils-wrapper-1.0 $(TARGET_ROOT_OUT)/system/bin/ip-wrapper-1.; \
