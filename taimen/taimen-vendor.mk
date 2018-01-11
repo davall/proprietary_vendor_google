@@ -50,8 +50,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/google/taimen/proprietary/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017 \
+    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
+    vendor/google/taimen/proprietary/etc/selinux/mapping/27.0.cil:system/etc/selinux/mapping/27.0.cil
 
 PRODUCT_PACKAGES += \
     VZWAPNLib \
