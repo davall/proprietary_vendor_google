@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/firmware/dnd.sound_model:system/etc/firmware/dnd.sound_model \
     vendor/google/taimen/proprietary/etc/firmware/music_detector.descriptor:system/etc/firmware/music_detector.descriptor \
     vendor/google/taimen/proprietary/etc/firmware/music_detector.sound_model:system/etc/firmware/music_detector.sound_model \
-    vendor/google/taimen/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
@@ -74,7 +73,6 @@ PRODUCT_PACKAGES += \
     wahoo_gfxdrv \
     VerizonUnifiedSettings \
     cneapiclient \
-    com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     embmslibrary \
