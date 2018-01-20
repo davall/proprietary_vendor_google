@@ -27,7 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-wahoo.xml:system/etc/permissions/privapp-permissions-wahoo.xml \
-    vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml\
+    vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml \
+    vendor/google/taimen/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
+    vendor/google/taimen/proprietary/etc/permissions/com.verizon.services.xml:system/etc/permissions/com.verizon.services.xml \
+    vendor/google/taimen/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
+    vendor/google/taimen/proprietary/etc/permissions/com.verizon.llkagent.xml:system/etc/permissions/com.verizon.llkagent.xml \
+    vendor/google/taimen/proprietary/etc/permissions/features-verizon.xml:system/etc/permissions/features-verizon.xml \
+    vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
     vendor/google/taimen/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/google/taimen/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -52,11 +58,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
-    vendor/google/taimen/proprietary/etc/selinux/mapping/27.0.cil:system/etc/selinux/mapping/27.0.cil
+
 
 PRODUCT_PACKAGES += \
-    VZWAPNLib \
-    embms \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
@@ -66,7 +70,6 @@ PRODUCT_PACKAGES += \
     SprintDM \
     SprintHM \
     TimeService \
-    VzwOmaTrigger \
     datastatusnotification \
     wahoo_gfxdrv \
     VerizonUnifiedSettings \
@@ -77,6 +80,10 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     rcsimssettings \
     vendor.qti.qcril.am-V1.0-java \
-    ims \
+    VzwOmaTrigger \
+    vzw_msdc_api \
     QAS_DVC_MSP_VZW \
-    vzw_msdc_api
+    VZWAPNLib \
+    embms \
+    ims \
+    ModemService
