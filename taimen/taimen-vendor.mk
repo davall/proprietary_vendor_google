@@ -64,13 +64,8 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
-    QtiTelephonyService \
-    SSRestartDetector \
     SprintDM \
     SprintHM \
-    TimeService \
-    datastatusnotification \
-    wahoo_gfxdrv \
     VerizonUnifiedSettings \
     cneapiclient \
     com.quicinc.cne.api-V1.0-java \
@@ -83,5 +78,4 @@ PRODUCT_PACKAGES += \
     QAS_DVC_MSP_VZW \
     VZWAPNLib \
     embms \
-    ims \
-    ModemService
+    ims
