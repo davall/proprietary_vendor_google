@@ -53,11 +53,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/taimen/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/google/taimen/proprietary/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
-    vendor/google/taimen/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
-    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
-
+    vendor/google/taimen/proprietary/lib64/libclcore.bc:system/lib64/libclcore.bc \
+    vendor/google/taimen/proprietary/lib64/libclcore_g.bc:system/lib64/libclcore_g.bc \
+    vendor/google/taimen/proprietary/lib64/libclcore_debug_g.bc:system/lib64/libclcore_debug_g.bc \
+    vendor/google/taimen/proprietary/lib64/libclcore_debug.bc:system/lib64/libclcore_debug.bc \
+    vendor/google/taimen/proprietary/lib64/android.frameworks.vr.composer@1.0.so:system/lib64/android.frameworks.vr.composer@1.0.so 
 
 PRODUCT_PACKAGES += \
     CNEService \
