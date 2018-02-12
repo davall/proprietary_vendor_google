@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb \
     vendor/google/taimen/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
-    vendor/google/taimen/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
@@ -45,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/google/taimen/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/google/taimen/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/google/taimen/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
-    vendor/google/taimen/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/google/taimen/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/google/taimen/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib/librcc.so:system/lib/librcc.so \
@@ -68,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    Tycho \
     AmbientSensePrebuilt \
     EaselServicePrebuilt \
     VZWAPNLib \
@@ -100,7 +96,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
     cneapiclient \
-    com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     embmslibrary \
