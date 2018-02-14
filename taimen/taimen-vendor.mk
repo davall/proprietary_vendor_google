@@ -68,6 +68,7 @@ PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
     EaselServicePrebuilt \
     VZWAPNLib \
+    embms \
     ims \
     vzw_msdc_api \
     CNEService \
@@ -81,12 +82,16 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
+    ModemService \
     OBDM_Permissions \
     OemDmTrigger \
+    QtiTelephonyService \
     SSRestartDetector \
     SprintDM \
     SprintHM \
+    TimeService \
     VzwOmaTrigger \
+    datastatusnotification \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
