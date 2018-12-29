@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/firmware/dnd.sound_model:system/etc/firmware/dnd.sound_model \
     vendor/google/taimen/proprietary/etc/firmware/music_detector.descriptor:system/etc/firmware/music_detector.descriptor \
     vendor/google/taimen/proprietary/etc/firmware/music_detector.sound_model:system/etc/firmware/music_detector.sound_model \
+    vendor/google/taimen/proprietary/etc/permissions/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml \
     vendor/google/taimen/proprietary/etc/init/bufferhubd.rc:system/etc/init/bufferhubd.rc \
     vendor/google/taimen/proprietary/etc/init/performanced.rc:system/etc/init/performanced.rc \
     vendor/google/taimen/proprietary/etc/init/virtual_touchpad.rc:system/etc/init/virtual_touchpad.rc \
@@ -46,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.customermobile.preload.vzw.xml:system/etc/permissions/com.customermobile.preload.vzw.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml \
+    vendor/google/taimen/proprietary/etc/permissions/com.google.android.hardwareinfo.xml:system/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.google.android.hardwareinfo.xml:system/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
@@ -82,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib/libiperf.so:system/lib/libiperf.so \
     vendor/google/taimen/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/google/taimen/proprietary/priv-app/EuiccGoogle/esim0.img:system/priv-app/EuiccGoogle/esim0.img \
     vendor/google/taimen/proprietary/lib/vendor.qti.qcril.am@1.0.so:system/lib/vendor.qti.qcril.am@1.0.so \
     vendor/google/taimen/proprietary/lib64/android.frameworks.vr.composer@1.0.so:system/lib64/android.frameworks.vr.composer@1.0.so \
     vendor/google/taimen/proprietary/lib64/com.qualcomm.qti.ims.radio@1.0.so:system/lib64/com.qualcomm.qti.ims.radio@1.0.so \
@@ -120,7 +123,9 @@ PRODUCT_PACKAGES += \
     DMAgent \
     DMService \
     DiagMon \
+    EuiccGoogle \
     GCS \
+    HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
@@ -148,6 +153,7 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     embmslibrary \
+    libhwinfo \
     ims \
     obdm_stub \
     qcrilhook \
